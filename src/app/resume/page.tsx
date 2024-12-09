@@ -1,17 +1,13 @@
 import Image from "next/image";
 import Link from "next/link";
 
+import { Mail, MapPin, Phone } from "lucide-react";
 
-import { Briefcase, GraduationCap, Mail, MapPin, Phone } from "lucide-react";
-import { Button } from "../components/Ui/button";
 import { Card, CardContent } from "../components/Ui/card";
 import Navigation from "../components/Navigation";
-import profilePic from './../../../public/myprofile.jpg'
+import profilePic from "./../../../public/myprofile.jpg";
 import Footer from "../components/Ui/Footer";
 export default function ResumePage() {
-
-
-
   return (
     <div className="min-h-screen bg-black text-white">
       {/* Navigation */}
@@ -86,19 +82,16 @@ export default function ResumePage() {
                   <div className="space-y-4">
                     <div>
                       <h3 className="font-semibold">
-                         Software Development from Coursera
-                       
+                        Software Development from Coursera
                       </h3>
                       <p className="text-sm text-gray-400">
                         17.03.2021 - 26.03.2022
                       </p>
                     </div>
-               
-                 
+
                     <div>
                       <h3 className="font-semibold">
-                        Graduation, Jodhpur
-                        Jai Narain Vyas University
+                        Graduation, Jodhpur Jai Narain Vyas University
                       </h3>
                       <p className="text-sm text-gray-400">10.2015 - 07.2019</p>
                     </div>
@@ -141,7 +134,6 @@ export default function ResumePage() {
                   Soft Skills
                 </h2>
                 <ul className="list-disc list-inside">
-            
                   <li>Quick Learner</li>
                   <li>Teamwork</li>
                   <li>Problem Solving skills</li>
@@ -157,7 +149,8 @@ export default function ResumePage() {
                   <li>Javascript</li>
                   <li>c++</li>
                   <li>
-                    Understanding of frameworks (React,NextJs,Nodejs, React native)
+                    Understanding of frameworks (React,NextJs,Nodejs, React
+                    native)
                   </li>
                   <li>Problem Solving skills</li>
                   <li>Adaptability</li>
@@ -189,16 +182,16 @@ export default function ResumePage() {
             success.
           </p>
           <Link
-      href="/contact"
-      className="bg-red-600 hover:bg-red-700 text-white px-4 py-2 rounded inline-block text-center"
-    >
-      Contact me
-    </Link>
+            href="/contact"
+            className="bg-red-600 hover:bg-red-700 text-white px-4 py-2 rounded inline-block text-center"
+          >
+            Contact me
+          </Link>
         </section>
       </div>
 
       {/* Footer */}
- <Footer/>
+      <Footer />
     </div>
   );
 }

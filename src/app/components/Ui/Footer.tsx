@@ -2,14 +2,7 @@ import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 import Logos from "./../../../../public/logos.png";
-import {
-  Facebook,
-  Instagram,
-  Linkedin,
-  Download,
-  Twitter,
-  Youtube,
-} from "lucide-react";
+import { Instagram, Linkedin, Twitter, Youtube } from "lucide-react";
 export default function Footer() {
   return (
     <footer className="max-w-7xl mx-auto px-4 py-8 flex justify-between items-center border-t border-white/10">

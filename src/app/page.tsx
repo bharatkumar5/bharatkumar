@@ -1,7 +1,7 @@
 import Image from "next/image"
 import Link from "next/link"
 import Navigation from "./components/Navigation"
-import { Facebook, Instagram, Linkedin, Download } from 'lucide-react'
+import {  Download } from 'lucide-react'
 import { Button } from "./components/Ui/button"
 import { Badge } from "./components/Ui/badge"
 import profilePic from './../../public/bharat2.png'
