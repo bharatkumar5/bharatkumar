@@ -8,8 +8,12 @@ import Logos from "./../../../public/logos.png"
 const Navigation = () => {
   const toggleMenu = () => {
     const menu = document.getElementById("mobile-menu");
-    menu.classList.toggle("hidden");
-  };
+  
+    if (menu) { // Check if menu is not null
+      // Now you can safely access menu's properties
+      menu.classList.toggle("hidden");
+    }
+  }
 
   return (
     <nav className="flex justify-between items-center p-4 max-w-7xl mx-auto relative">
