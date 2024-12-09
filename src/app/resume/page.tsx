@@ -60,18 +60,18 @@ export default function ResumePage() {
                   <p className="text-justify">
                     A highly motivated and detail-oriented Full Stack Developer
                     with a passion for building robust and scalable web
-                    applications. Proficient in both frontend and backend
-                    technologies, including HTML, CSS, JavaScript, React,
-                    Node.js, and databases. Experienced in developing
-                    responsive, user-friendly interfaces and integrating backend
-                    services to create dynamic, data-driven websites. Strong
-                    problem-solving abilities with a focus on clean,
+                    applications Proficient in both frontend and backend
+                    technologies including HTML CSS JavaScript React
+                    Node.js and databases. Experienced in developing
+                    responsive user-friendly interfaces and integrating backend
+                    services to create dynamic data-driven websites Strong
+                    problem-solving abilities with a focus on clean
                     maintainable code and an eagerness to stay up-to-date with
-                    the latest industry trends. Adept at collaborating in
-                    cross-functional teams, ensuring the successful delivery of
-                    high-quality solutions. Excellent communication skills, with
+                    the latest industry trends Adept at collaborating in
+                    cross-functional teams ensuring the successful delivery of
+                    high-quality solutions Excellent communication skills with
                     a commitment to learning and continuous professional growth
-                    in a dynamic, fast-paced environment
+                    in a dynamic fast-paced environment
                   </p>
                 </div>
 
@@ -149,7 +149,7 @@ export default function ResumePage() {
                   <li>Javascript</li>
                   <li>c++</li>
                   <li>
-                    Understanding of frameworks (React,NextJs,Nodejs, React
+                    Understanding of frameworks (React NextJs Nodejs React
                     native)
                   </li>
                   <li>Problem Solving skills</li>
@@ -177,9 +177,9 @@ export default function ResumePage() {
             Lets work together on your next project
           </h2>
           <p className="text-white/70 mb-8 max-w-2xl mx-auto">
-            Collaboration is key! Let's join forces and combine our skills to
+            Collaboration is key Lets join forces and combine our skills to
             tackle your next project with a powerful synergy that guarantees
-            success.
+            success
           </p>
           <Link
             href="/contact"

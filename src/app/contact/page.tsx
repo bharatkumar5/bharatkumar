@@ -59,9 +59,9 @@ export default function ContactPage() {
             Lets work together on your next project
           </h2>
           <p className="text-white/70 mb-8 max-w-2xl mx-auto">
-            Collaboration is key! Let's join forces and combine our skills to
+            Collaboration is key! Lets join forces and combine our skills to
             tackle your next project with a powerful synergy that guarantees
-            success.
+            success
           </p>
         </section>
       </main>
