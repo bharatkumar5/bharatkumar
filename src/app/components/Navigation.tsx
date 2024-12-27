@@ -37,6 +37,9 @@ const Navigation = () => {
         <Link href="/resume" className="text-white/70 hover:text-white">
           RESUME
         </Link>
+        <Link href="/projects" className="text-white/70 hover:text-white">
+          PROJECTS
+        </Link>
       
         <Link href="/contact" className="text-white hover:text-white">
           CONTACT
@@ -71,6 +74,9 @@ const Navigation = () => {
         <Link href="/resume" className="block text-white/70 hover:text-white py-2">
           RESUME
         </Link>
+
+        <Link href="/projects" className="block text-white/70 hover:text-white py-2">
+PROJECTS     </Link>
     
         <Link href="/contact" className="block text-white/70 hover:text-white py-2">
           CONTACT
